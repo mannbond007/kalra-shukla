@@ -39,8 +39,8 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="bg-primary text-white p-2 flex rounded-lg">
-            <GraduationCap className="w-6 h-6" />
+          <div className="bg-primary text-white p-2 flex rounded">
+            <GraduationCap className="w-6 h-6 text-secondary" />
           </div>
           <div className="flex flex-col">
             <span className="font-bold text-xl leading-none text-primary">
